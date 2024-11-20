@@ -1,3 +1,10 @@
+Author
+Nurmuhass
+
+GitHub: Nurmuhass
+Email: Nurmuhass@gmail.com
+
+
 # Image Editor Tool
 
 A simple image editing tool built with Next.js 14 and TypeScript that allows users to browse, edit, and download images from the [Lorem Picsum](https://picsum.photos/) API. Users can adjust image dimensions, apply grayscale effects, blur the image, and download the edited version.
@@ -62,3 +69,29 @@ File Structure
 ├── package.json                # Project dependencies and scripts
 ├── README.md                   # Project documentation
 └── tsconfig.json               # TypeScript configuration
+
+How to Use
+Browse Images
+
+Open the application and scroll through the gallery.
+Use the "Next" and "Previous" buttons to paginate through the images.
+Edit an Image
+
+Click on an image to navigate to the editor page.
+Adjust the following settings:
+Width and Height: Specify desired dimensions.
+Blur: Drag the slider to apply a blur effect (0-10).
+Grayscale: Toggle grayscale mode on or off.
+Download the Edited Image
+
+Click the Download button to save the customized image to your computer.
+Scripts
+npm run dev: Start the development server.
+npm run build: Build the application for production.
+npm start: Start the production server after building.
+npm run lint: Run linter to check for code quality issues.
+Technologies Used
+Next.js: Framework for server-rendered React applications.
+TypeScript: For static typing.
+React: Frontend library.
+CSS Modules: Scoped styling for components
