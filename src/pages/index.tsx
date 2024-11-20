@@ -17,7 +17,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await axios.get(`https://picsum.photos/v2/list?page=${page}&limit=28`);
+        const response = await axios.get(`https://picsum.photos/v2/list?page=${page}&limit=24`);
         setImages(response.data);
         setError(null);
       } catch (err) {
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
         <button onClick={() => setPage(page - 1)} disabled={page === 1}>
           Previous
         </button>
-        <button onClick={() => setPage(page + 1)} disabled={images.length < 28}>
+        <button onClick={() => setPage(page + 1)} disabled={images.length < 24}>
           Next
         </button>
       </div>
