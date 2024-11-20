@@ -24,7 +24,10 @@ const ImageEditor: React.FC = () => {
     <div>
       <h1>Edit Image</h1>
       <div>
+        <center>
         <img src={imageUrl} alt="Preview" />
+        </center>
+        
       </div>
       <div>
         <label>
