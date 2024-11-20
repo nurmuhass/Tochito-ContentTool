@@ -41,3 +41,24 @@ npm install
 npm run dev
 
 4.Access the Application Open your browser and navigate to http://localhost:3000.
+
+File Structure
+
+├── public/
+│   └── favicon.ico     # Default favicon
+├── src/
+│   ├── context/
+│   │   └── EditorContext.tsx  # State management for editing settings
+│   ├── pages/
+│   │   ├── editor/
+│   │   │   └── [id].tsx        # Image editor page
+│   │   ├── _app.tsx            # Global app configuration
+│   │   └── index.tsx           # Home page displaying the image gallery
+│   ├── styles/
+│   │   ├── globals.css         # Global CSS styles
+│   │   └── Home.module.css     # CSS styles for the home page
+│   └── components/             # Reusable components (Nothing inside for now)
+├── .gitignore                  # Files and directories to ignore in Git
+├── package.json                # Project dependencies and scripts
+├── README.md                   # Project documentation
+└── tsconfig.json               # TypeScript configuration
